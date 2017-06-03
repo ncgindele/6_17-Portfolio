@@ -1,21 +1,25 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
+
 div {
     margin: 0;
 }
+
 .body-container {
     width: 100%;
     max-width: 1000px;
     min-width: 332px;
     margin: auto;
 }
+
 .work-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
+
 .work-item {
     width: 100%;
     max-width: 300px;
@@ -26,7 +30,7 @@ div {
 }
 
 .work-item:first-of-type {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 header {
@@ -47,7 +51,9 @@ header {
     text-align: center;
 }
 
-h1, h3, h4 {
+h1,
+h3,
+h4 {
     color: #2d3c49;
 }
 
@@ -55,7 +61,7 @@ h1 {
     font-size: 3.7em;
     font-weight: 100;
     margin: 0 4px 0 0;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: "Roboto Mono", sans-serif;
     font-style: normal;
 }
 
@@ -76,6 +82,7 @@ h3 {
 h4 {
     color: #2d3c49;
 }
+
 a {
     text-decoration: none;
     color: #2d3c49;
@@ -91,14 +98,14 @@ a {
 .subtitle {
     margin: 0 4px 1em 0;
     font-size: 1.3em;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: "Roboto Mono", sans-serif;
 }
 
 .upcase {
     text-transform: uppercase;
 }
 
-#profile-pic {
+.profile-pic {
     width: 100%;
 }
 
